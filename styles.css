@@ -1,1 +1,77 @@
+body{
+    margin: 0px;
+    background-image: linear-gradient(270deg,rgb(6, 1, 77),rgb(25, 0, 255),rgb(6, 1, 77));
+}
 
+#head{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: rgb(255, 118, 6);
+    text-align: center;
+}
+
+#subHead
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    margin-top: 30px;
+    font-stretch: expanded;
+    font-family: 'Lato';
+    font-weight: 800;
+    color: rgb(255, 126, 6);
+    text-align: center;
+}
+
+#board
+{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    margin-top: 100px;
+    font-stretch: ultra-expanded;
+    font-family: 'Bevan';
+    color: rgb(255, 126, 6);
+    text-align: center;
+}
+
+#buttoncontainor
+{
+    /* border: solid; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.button{
+    margin: 20px;
+    height: 140px;
+    width: 140px;
+    border-radius: 20%;
+    border: rgb(0, 0, 0) solid 6px;
+}
+#red
+{
+    background-color: red;
+}
+#blue
+{
+    background-color: rgb(0, 217, 255);
+}
+#green
+{
+    background-color: rgb(0, 255, 0);
+}
+#yellow
+{
+    background-color: rgb(230, 255, 6);
+}
