@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Bevan' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+</head>
+<body>
 
+    <div id="head"> SIMON GAME</div>
+    <div id="subHead">Test your memory skills</div>
+    <div id="board">Press 'A' to start</div>
+    <div id="buttoncontainor">
+        <div class="button" id="red" data-value="red"> </div>
+        <div class="button" id="blue"></div>
+        <div class="button" id="green"></div>
+        <div class="button" id="yellow"></div>
+    </div>
+
+    <audio src="sounds/red.mp3" id="ared"></audio>
+    <audio src="sounds/blue.mp3" id="ablue"></audio>
+    <audio src="sounds/green.mp3" id="agreen"></audio>
+    <audio src="sounds/yellow.mp3" id="ayellow"></audio>
+    <audio src="sounds/wrong.mp3" id="awrong"></audio>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
